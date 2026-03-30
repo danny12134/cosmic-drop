@@ -10,10 +10,10 @@ O aplicație web care afișează zilnic o imagine sau video din arhiva NASA APOD
 - ★ Salvează imagini favorite în browser
 - 🎬 Suport video și imagini
 
-## Cum se deschide
+## Cum se deschide?
 
-Deschide `index.html` în orice browser.
-Nu necesită instalare sau server.
+Descarcă fișierele și deschide `index.html` în orice browser.
+Nu necesită instalare, server sau cont. Funcționează offline.
 
 ## Structura proiectului
 
@@ -27,5 +27,5 @@ cosmicdrop/
 
 ## Construit de
 
-- Chiriac Daniel - `@username-daniel`
-- Morari Emanuel - `@username-emanuel`
+- Chiriac Daniel - `@danny12134`
+- Morari Emanuel - `@hekheker959-ai`
