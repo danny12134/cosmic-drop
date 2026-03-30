@@ -27,5 +27,5 @@ cosmicdrop/
 
 ## Construit de
 
-- Chiriac Daniel - `@danny12134`
-- Morari Emanuel - `@hekheker959-ai`
+- Chiriac Daniel - @danny12134
+- Morari Emanuel - @hekheker959-ai
