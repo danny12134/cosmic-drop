@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cosmic Drop · Portretul zilei</title>
-
     <!-- google font inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&display=swap" rel="stylesheet">
-
     <!-- stiluri -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
+ 
         <!-- header + data -->
         <div class="header">
             <div class="logo">
@@ -27,14 +26,15 @@
                 <button id="fetch-date">observă</button>
             </div>
         </div>
-        
+ 
         <!-- sectiune despre -->
         <div style="text-align:center; padding: 1rem 0 0.5rem; color:#8da4d6; font-size:0.95rem; font-weight:300; letter-spacing:0.5px;">
-          🚀 CosmicDrop — creat de Chiriac Daniel &amp; Morari Emanuel
+            🚀 CosmicDrop — creat de Chiriac Daniel &amp; Morari Emanuel
         </div>
-
+ 
         <!-- card principal -->
         <div class="card" id="mainCard">
+            <div class="media-container" id="mediaContainer">
                 <!-- placeholder initial -->
                 <div class="placeholder" id="placeholder">
                     <span class="astro-icon">✨</span>
@@ -43,12 +43,15 @@
                 </div>
                 <!-- aici se injecteaza img / iframe -->
             </div>
-
+ 
             <div class="info-panel" id="infoPanel" style="display: none;">
                 <div class="title-bar">
                     <h2 id="title">Titlu cosmic</h2>
                     <button class="favorite-btn" id="favToggle">
                         <span>★</span> <span id="favText">salvează</span>
+                    </button>
+                    <button class="favorite-btn" id="shareBtn">
+                        <span>🔗</span> <span>share</span>
                     </button>
                 </div>
                 <div class="meta">
@@ -58,7 +61,7 @@
                 <div class="explanation" id="explanation"></div>
             </div>
         </div>
-
+ 
         <!-- colector favorite -->
         <div class="favorites-section">
             <h3>⋆ favoritele tale <span style="font-size: 0.9rem; font-weight:200;">(click pe dată)</span></h3>
@@ -66,16 +69,17 @@
                 <!-- JS va popula aici -->
             </div>
         </div>
-
+ 
         <footer>
-    <span>🌙 imagery NASA/APOD</span>
-    <span>•</span>
-    <span>Chiriac Daniel &amp; Morari Emanuel — Clasa a 11-a</span>
-</footer>
+            <span>🌙 imagery NASA/APOD</span>
+            <span>•</span>
+            <span>Chiriac Daniel &amp; Morari Emanuel — Clasa a 11-a</span>
+        </footer>
+ 
     </div>
-
+ 
     <div id="toast" class="toast-message">⭐ salvat în constelația ta</div>
-
+ 
     <!-- logica aplicatiei -->
     <script src="script.js"></script>
 </body>
